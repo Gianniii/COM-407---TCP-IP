@@ -1,0 +1,942 @@
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:12::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:23::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:25::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:22::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: [EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2021/11/28 21:11:40 OSPF6: [EC 100663304] ERROR: No such command on config line 24:   ipv6 ospf6 cost 5
+2021/11/28 21:11:40 OSPF6: [EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::38cf:81ff:fe9a:4400/64
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth1: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::38cf:81ff:fe9a:4400/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 7 usec, Reason: R+, L+
+
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::b8db:6aff:fe00:c397/64
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth2: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::b8db:6aff:fe00:c397/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 50 msec
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::a09a:b2ff:fe1c:1d7b/64
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth3: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::a09a:b2ff:fe1c:1d7b/64
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth1 already enabled
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth1 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::38cf:81ff:fe9a:4400/64
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth2 already enabled
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth2 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::b8db:6aff:fe00:c397/64
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::a09a:b2ff:fe1c:1d7b/64
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 14 usec, Reason: L+
+
+2021/11/28 21:11:40 OSPF6: Neighbor Event 0.0.0.0%r2-eth1: *HelloReceived*
+2021/11/28 21:11:40 OSPF6: Neighbor state change 0.0.0.0%r2-eth1: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth1: [BackupSeen]
+2021/11/28 21:11:40 OSPF6: DR Election on r2-eth1: DR: 10.10.24.2 BDR: 0.0.0.0
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth1: Waiting -> DR
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 7 usec, Reason: R+
+
+2021/11/28 21:11:40 OSPF6: Neighbor Event 0.0.0.0%r2-eth2: *HelloReceived*
+2021/11/28 21:11:40 OSPF6: Neighbor state change 0.0.0.0%r2-eth2: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [BackupSeen]
+2021/11/28 21:11:40 OSPF6: DR Election on r2-eth2: DR: 10.10.24.2 BDR: 0.0.0.0
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth2: Waiting -> DR
+2021/11/28 21:11:40 OSPF6: Neighbor Event 0.0.0.0%r2-eth3: *HelloReceived*
+2021/11/28 21:11:40 OSPF6: Neighbor state change 0.0.0.0%r2-eth3: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [BackupSeen]
+2021/11/28 21:11:40 OSPF6: DR Election on r2-eth3: DR: 10.10.24.2 BDR: 0.0.0.0
+2021/11/28 21:11:40 OSPF6: Interface state change r2-eth3: Waiting -> DR
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth2: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth2 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::b8db:6aff:fe00:c397/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 11 usec, Reason: L+, L-
+
+2021/11/28 21:11:40 OSPF6: Interface Event r2-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r2-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::a09a:b2ff:fe1c:1d7b/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 13 usec, Reason: L+, L-
+
+2021/11/28 21:11:41 OSPF6: Interface Event r2-eth1: [InterfaceUp]
+2021/11/28 21:11:41 OSPF6: Interface r2-eth1 already enabled
+2021/11/28 21:11:41 OSPF6: Filter out Linklocal: fe80::38cf:81ff:fe9a:4400/64
+2021/11/28 21:11:41 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:41 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 14 usec, Reason: L+, L-
+
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.14.1%r2-eth1: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *2Way-Received*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.14.1%r2-eth1: [Init]->[ExStart] (2-WayReceived)
+2021/11/28 21:11:50 OSPF6: Interface Event r2-eth1: [NeighborChange]
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *NegotiationDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.14.1%r2-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 24 usec, Reason: R+, L+
+
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *ExchangeDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.14.1%r2-eth1: [ExChange]->[Full] (ExchangeDone)
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 47 msec
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.35.3%r2-eth2: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *2Way-Received*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.35.3%r2-eth2: [Init]->[ExStart] (2-WayReceived)
+2021/11/28 21:11:50 OSPF6: Interface Event r2-eth2: [NeighborChange]
+2021/11/28 21:11:50 OSPF6: DR Election on r2-eth2: DR: 10.10.35.3%r2-eth2 BDR: 10.10.24.2
+2021/11/28 21:11:50 OSPF6: Interface state change r2-eth2: DR -> BDR
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *AdjOK?*
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *NegotiationDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.35.3%r2-eth2: [ExStart]->[ExChange] (NegotiationDone)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *ExchangeDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.35.3%r2-eth2: [ExChange]->[Loading] (ExchangeDone)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *LoadingDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.35.3%r2-eth2: [Loading]->[Full] (LoadingDone)
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 50 usec, Reason: R+, R-, N+, L+
+
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.45.5%r2-eth3: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *2Way-Received*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.45.5%r2-eth3: [Init]->[ExStart] (2-WayReceived)
+2021/11/28 21:11:50 OSPF6: Interface Event r2-eth3: [NeighborChange]
+2021/11/28 21:11:50 OSPF6: DR Election on r2-eth3: DR: 10.10.45.5%r2-eth3 BDR: 10.10.24.2
+2021/11/28 21:11:50 OSPF6: Interface state change r2-eth3: DR -> BDR
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *AdjOK?*
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *NegotiationDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.45.5%r2-eth3: [ExStart]->[ExChange] (NegotiationDone)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *ExchangeDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.45.5%r2-eth3: [ExChange]->[Loading] (ExchangeDone)
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 16 msec
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *LoadingDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.45.5%r2-eth3: [Loading]->[Full] (LoadingDone)
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 66 usec, Reason: R+, R-, N+, L+
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 130 usec, Reason: R+, R-
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 20 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 83 usec, Reason: R+, R-
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 29 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 110 usec, Reason: R+, R-
+
+2021/11/28 21:12:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:00 OSPF6: Interface Event r2-eth1: [NeighborChange]
+2021/11/28 21:12:00 OSPF6: DR Election on r2-eth1: DR: 10.10.24.2 BDR: 10.10.14.1%r2-eth1
+2021/11/28 21:12:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *AdjOK?*
+2021/11/28 21:12:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:12:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth1: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth2: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth3: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:12:20 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 69 usec, Reason: R+, R-, N+
+
+2021/11/28 21:12:20 OSPF6: SPF: Scheduled in 41 msec
+2021/11/28 21:12:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: Neighbor Event 0.0.0.0%r2-eth1: *InactivityTimer*
+2021/11/28 21:12:20 OSPF6: Neighbor state change 0.0.0.0%r2-eth1: [Init]->[Down] (InactivityTimer)
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth1: [NeighborChange]
+2021/11/28 21:12:20 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 101 usec, Reason: R+, R-
+
+2021/11/28 21:12:20 OSPF6: Neighbor Event 0.0.0.0%r2-eth2: *InactivityTimer*
+2021/11/28 21:12:20 OSPF6: Neighbor state change 0.0.0.0%r2-eth2: [Init]->[Down] (InactivityTimer)
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth2: [NeighborChange]
+2021/11/28 21:12:20 OSPF6: Neighbor Event 0.0.0.0%r2-eth3: *InactivityTimer*
+2021/11/28 21:12:20 OSPF6: Neighbor state change 0.0.0.0%r2-eth3: [Init]->[Down] (InactivityTimer)
+2021/11/28 21:12:20 OSPF6: Interface Event r2-eth3: [NeighborChange]
+2021/11/28 21:12:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:12:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:12:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:12:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:12:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:13:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:13:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:13:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:14:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:14:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:14:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:15:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:15:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:15:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:16:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:16:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:16:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:17:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:17:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:17:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:00 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:10 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:20 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:30 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:40 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:18:50 OSPF6: Neighbor Event 10.10.14.1%r2-eth1: *HelloReceived*
+2021/11/28 21:18:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:18:51 OSPF6: Interface Event r2-eth1: [InterfaceDown]
+2021/11/28 21:18:51 OSPF6: Interface state change r2-eth1: DR -> Down
+2021/11/28 21:18:51 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:18:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 78 usec, Reason: R+, R-, N*
+
+2021/11/28 21:18:51 OSPF6: Interface Event r2-eth1: [InterfaceDown]
+2021/11/28 21:18:51 OSPF6: Interface Event r2-eth1: [InterfaceDown]
+2021/11/28 21:19:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:19:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:19:51 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:19:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 96 usec, Reason: N-, L-
+
+2021/11/28 21:20:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:20:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:20:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:20:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:20:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:20:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:20:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:21:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:21:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:21:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:21:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:21:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:21:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:22:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:22:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:23:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:23:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:24:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:24:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:25:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:25:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:25:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:25:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:25:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:25:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:26:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:26:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:26:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:26:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:26:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:26:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:27:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:27:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:28:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:28:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:29:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:29:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:29:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:29:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:29:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:29:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:30:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:30:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:30:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:30:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:30:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:30:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:31:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:31:50 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:10 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:10 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:20 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:20 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:30 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:30 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:40 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:40 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:32:50 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:32:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:00 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:00 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:33:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:33:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:34:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:34:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:35:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:35:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:35:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:35:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:35:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:35:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:36:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:36:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:36:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:36:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:36:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:36:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:37:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:37:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:38:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:38:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:39:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:39:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:40:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:40:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:41:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:41:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:42:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:42:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:42:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:42:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:42:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:42:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:43:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:43:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:43:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:43:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:43:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:43:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:44:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:44:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:45:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:45:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:46:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:46:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:47:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:47:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:48:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:48:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:49:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:49:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:49:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:49:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:49:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:49:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:50:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:50:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:50:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:50:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:50:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:50:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:51:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:51:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:52:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:52:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:53:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:53:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:54:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:54:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:41 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:55:51 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:55:51 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:01 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:01 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:11 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:11 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:21 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:21 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:31 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:31 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:41 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:56:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:56:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:57:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:57:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:58:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:58:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 21:59:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 21:59:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:00:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:00:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:01:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:01:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:02:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:02:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:03:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:03:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:04:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:04:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:04:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:04:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:04:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:04:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:05:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:05:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:05:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:05:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:05:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:05:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:06:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:06:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:07:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:07:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:08:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:08:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:09:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:09:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:10:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:10:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:42 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:42 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:11:48 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 22:11:48 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 100 usec, Reason: R-
+
+2021/11/28 22:11:52 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:11:52 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:12:02 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:12:02 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:12:12 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:12:12 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:12:22 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:12:22 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+2021/11/28 22:12:32 OSPF6: Neighbor Event 10.10.35.3%r2-eth2: *HelloReceived*
+2021/11/28 22:12:32 OSPF6: Neighbor Event 10.10.45.5%r2-eth3: *HelloReceived*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

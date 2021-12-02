@@ -85,6 +85,9 @@ def Lab4_Network():
     net.start()
     "This is used to run commands on the hosts and starting xterm on hosts"
 
+
+
+
     info( '*** Configuring hosts\n' )
     h1.cmd('ip route add default via 10.10.11.1')
     h1.cmd('ip -6 addr add 2001:1:0:11::10/64 dev h1-eth1')
@@ -136,6 +139,25 @@ def Lab4_Network():
     r5.cmd('sysctl -w net.ipv4.conf.r5-eth2.rp_filter=0')
     r5.cmd('sysctl -w net.ipv4.conf.r5-eth3.rp_filter=0')
 
+    #activate zebra daemon's for routers
+    r1.cmd('zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r1.cfg -i /home/lca2/Desktop/lab4/run/zebra_r1.pid -z /home/lca2/Desktop/lab4/run/frr_r1.api -u root -k')
+    r2.cmd('zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r2.cfg -i /home/lca2/Desktop/lab4/run/zebra_r2.pid -z /home/lca2/Desktop/lab4/run/frr_r2.api -u root -k')
+    r3.cmd('zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r3.cfg -i /home/lca2/Desktop/lab4/run/zebra_r3.pid -z /home/lca2/Desktop/lab4/run/frr_r3.api -u root -k')
+    r4.cmd('zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r4.cfg -i /home/lca2/Desktop/lab4/run/zebra_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root -k')
+    r5.cmd('zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r5.cfg -i /home/lca2/Desktop/lab4/run/zebra_r5.pid -z /home/lca2/Desktop/lab4/run/frr_r5.api -u root -k')
+
+
+    r1.cmd('ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r1.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r1.pid -z /home/lca2/Desktop/lab4/run/frr_r1.api -u root')
+    r2.cmd('ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r2.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r2.pid -z /home/lca2/Desktop/lab4/run/frr_r2.api -u root')
+    r3.cmd('ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r3.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r3.pid -z /home/lca2/Desktop/lab4/run/frr_r3.api -u root')
+    r4.cmd('ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r4.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root')
+    r5.cmd('ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r5.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r5.pid -z /home/lca2/Desktop/lab4/run/frr_r5.api -u root')
+
+    r1.cmd('ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r1.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r1.pid -z /home/lca2/Desktop/lab4/run/frr_r1.api -u root')
+    r2.cmd('ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r2.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r2.pid -z /home/lca2/Desktop/lab4/run/frr_r2.api -u root')
+    r3.cmd('ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r3.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r3.pid -z /home/lca2/Desktop/lab4/run/frr_r3.api -u root')
+    r4.cmd('ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospfd_r4.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root')
+    r5.cmd('ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r5.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r5.pid -z /home/lca2/Desktop/lab4/run/frr_r5.api -u root')
 
 
     os.system("chown lca2 /home/lca2/Desktop/lab4/logs/*")

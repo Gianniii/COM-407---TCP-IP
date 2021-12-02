@@ -1,0 +1,163 @@
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:12::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth2: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:14::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: area_range: for prefix 2001:1:0:11::/64, flag = 0
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::2890:8ff:fe27:b013/64
+2021/11/28 21:11:40 OSPF6: Interface state change r1-eth1: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::2890:8ff:fe27:b013/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth2: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 7 usec, Reason: R+, L+
+
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::f026:46ff:fe54:d1ab/64
+2021/11/28 21:11:40 OSPF6: Interface state change r1-eth3: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::f026:46ff:fe54:d1ab/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 50 msec
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth1 already enabled
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth1 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::2890:8ff:fe27:b013/64
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth2: [InterfaceDown]
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::f026:46ff:fe54:d1ab/64
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 14 usec, Reason: L+
+
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth2: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::843d:8dff:fe72:5990/64
+2021/11/28 21:11:40 OSPF6: Interface state change r1-eth2: Down -> Waiting
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::843d:8dff:fe72:5990/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 20 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 21 usec, Reason: R+, L+
+
+2021/11/28 21:11:40 OSPF6: Neighbor Event 0.0.0.0%r1-eth1: *HelloReceived*
+2021/11/28 21:11:40 OSPF6: Neighbor state change 0.0.0.0%r1-eth1: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [BackupSeen]
+2021/11/28 21:11:40 OSPF6: DR Election on r1-eth1: DR: 10.10.14.1 BDR: 0.0.0.0
+2021/11/28 21:11:40 OSPF6: Interface state change r1-eth1: Waiting -> DR
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth3 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::f026:46ff:fe54:d1ab/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 11 usec, Reason: L+, L-
+
+2021/11/28 21:11:40 OSPF6: Interface Event r1-eth1: [InterfaceUp]
+2021/11/28 21:11:40 OSPF6: Interface r1-eth1 already enabled
+2021/11/28 21:11:40 OSPF6: Filter out Linklocal: fe80::2890:8ff:fe27:b013/64
+2021/11/28 21:11:40 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 11 usec, Reason: L+, L-
+
+2021/11/28 21:11:41 OSPF6: Interface Event r1-eth2: [InterfaceUp]
+2021/11/28 21:11:41 OSPF6: Interface r1-eth2 already enabled
+2021/11/28 21:11:41 OSPF6: Filter out Linklocal: fe80::843d:8dff:fe72:5990/64
+2021/11/28 21:11:41 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:41 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 14 usec, Reason: L+, L-
+
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [Down]->[Init] (HelloReceived)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *2Way-Received*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [Init]->[ExStart] (2-WayReceived)
+2021/11/28 21:11:50 OSPF6: Interface Event r1-eth1: [NeighborChange]
+2021/11/28 21:11:50 OSPF6: DR Election on r1-eth1: DR: 10.10.24.2%r1-eth1 BDR: 10.10.14.1
+2021/11/28 21:11:50 OSPF6: Interface state change r1-eth1: DR -> BDR
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *AdjOK?*
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *NegotiationDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *ExchangeDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [ExChange]->[Loading] (ExchangeDone)
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *LoadingDone*
+2021/11/28 21:11:50 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [Loading]->[Full] (LoadingDone)
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 20 usec, Reason: R+, L+
+
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 50 msec
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 42 usec, Reason: R+, R-, N+
+
+2021/11/28 21:11:50 OSPF6: SPF: Scheduled in 19 msec
+2021/11/28 21:11:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 58 usec, Reason: R+, N+
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 91 usec, Reason: R+, R-
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 10 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 90 usec, Reason: R+, R-
+
+2021/11/28 21:11:55 OSPF6: SPF: Scheduled in 22 msec
+2021/11/28 21:11:55 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 183 usec, Reason: R+, R-
+
+2021/11/28 21:12:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:12:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: Interface Event r1-eth1: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: Interface Event r1-eth3: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: DR Election on r1-eth3: DR: 10.10.14.1 BDR: 0.0.0.0
+2021/11/28 21:12:20 OSPF6: Interface state change r1-eth3: Waiting -> DR
+2021/11/28 21:12:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:12:20 OSPF6: Interface Event r1-eth2: [WaitTimer]
+2021/11/28 21:12:20 OSPF6: DR Election on r1-eth2: DR: 10.10.14.1 BDR: 0.0.0.0
+2021/11/28 21:12:20 OSPF6: Interface state change r1-eth2: Waiting -> DR
+2021/11/28 21:12:20 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:12:20 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 65 usec, Reason: R+, R-, N+
+
+2021/11/28 21:12:20 OSPF6: SPF: Scheduled in 36 msec
+2021/11/28 21:12:20 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 86 usec, Reason: R+, R-
+
+2021/11/28 21:12:20 OSPF6: Neighbor Event 0.0.0.0%r1-eth1: *InactivityTimer*
+2021/11/28 21:12:20 OSPF6: Neighbor state change 0.0.0.0%r1-eth1: [Init]->[Down] (InactivityTimer)
+2021/11/28 21:12:20 OSPF6: Interface Event r1-eth1: [NeighborChange]
+2021/11/28 21:12:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:12:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:12:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:13:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:14:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:15:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:16:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:17:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:00 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:10 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:20 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:40 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:18:50 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *HelloReceived*
+2021/11/28 21:19:30 OSPF6: Neighbor Event 10.10.24.2%r1-eth1: *InactivityTimer*
+2021/11/28 21:19:30 OSPF6: Neighbor state change 10.10.24.2%r1-eth1: [Full]->[Down] (InactivityTimer)
+2021/11/28 21:19:30 OSPF6: SPF: Scheduled in 0 msec
+2021/11/28 21:19:30 OSPF6: Interface Event r1-eth1: [NeighborChange]
+2021/11/28 21:19:30 OSPF6: DR Election on r1-eth1: DR: 10.10.14.1 BDR: 0.0.0.0
+2021/11/28 21:19:30 OSPF6: Interface state change r1-eth1: BDR -> DR
+2021/11/28 21:19:30 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 54 usec, Reason: R+, R-
+
+                                                                                                                                                           
