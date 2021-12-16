@@ -92,7 +92,7 @@ def run():
  		enable_red = False,
  		max_queue_size = None 
     """
-    link_h3r1.intf1.config( bw=10, enable_red=True ,  enable_ecn=True)
+    link_h3r1.intf1.config( bw=5, enable_red=True ,  enable_ecn=True)
     # link_r1sw2.intf1.config( bw=5, max_queue_size=100, enable_ecn=False)
     
     net.start()
